@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Utilities
+parent: Just-the-Docs
 nav_order: 4
 has_children: true
-permalink: docs/utilities
+permalink: docs/Just-the-Docs/utilities
 ---
 
 # Utilities

@@ -2,6 +2,7 @@
 layout: default
 title: Callouts
 parent: UI Components
+grand_parent: Just-the-Docs
 nav_order: 7
 ---
 
@@ -11,7 +12,7 @@ Markdown does not include support for callouts. However, you can style text as a
 
 Common kinds of callouts include `admonition`, `attention`, `caution`, `danger`, `error`, `hint`, `important`, `note`, `tip`, and `warning`.
 
-When you have [configured]({{ site.baseurl }}{% link docs/configuration.md %}#callouts) the  `color` and (optional) `title` for a callout, you can apply it to a paragraph, or to a block quote with several paragraphs, as illustrated below.[^postfix]
+When you have [configured]({{ site.baseurl }}{% link docs/Just-the-Docs/configuration.md %}#callouts) the  `color` and (optional) `title` for a callout, you can apply it to a paragraph, or to a block quote with several paragraphs, as illustrated below.[^postfix]
 
 [^postfix]:
     You can put the callout markup either before or after its content.

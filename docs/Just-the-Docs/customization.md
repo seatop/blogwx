@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Customization
+parent: Just-the-Docs
 nav_order: 6
 ---
 
@@ -139,7 +140,7 @@ The following includes were made available to you:
 
 `_includes/footer_custom.html`
 
-This content appears at the bottom of every page's main content. More info for this include can be found in the [Configuration - Footer content]({% link docs/configuration.md %}#footer-content).
+This content appears at the bottom of every page's main content. More info for this include can be found in the [Configuration - Footer content]({% link docs/Just-the-Docs/configuration.md %}#footer-content).
 
 ### Custom Head
 
