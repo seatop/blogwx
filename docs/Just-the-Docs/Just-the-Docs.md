@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Just-the-Docs
-nav_order: 2
+nav_order: 10
 description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
 has_children: true
 permalink: /Just-the-Docs
