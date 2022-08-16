@@ -1,6 +1,6 @@
 ---
 layout: domain
-title: heartdo.com
+title: alphayi.com
 parent: domain
 ---
 
