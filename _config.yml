@@ -4,7 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: BlogWX
-description: 一个主要关注微信的个人博客.
+description: 记录玩与笑.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://blogwx.com" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/images/blogwx_logo_l.png"
@@ -55,9 +55,7 @@ search:
 heading_anchors: true
 
 # Aux links for the upper right navigation
-aux_links:
-  "微信":
-    - "//weixin.qq.com/"
+aux_links: false
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false

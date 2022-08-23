@@ -1,6 +1,6 @@
 ---
 layout: domain
-title: biahu.com
+title: blkbb.com
 parent: domain
 ---
 
