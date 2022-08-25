@@ -6,10 +6,11 @@ nav_exclude: true
 permalink: /message.html
 ---
 
-### @
+## @
+{: .m-5 }
 
 <p id="say"></p>
-{: .fs-6 .fw-300 }
+{: .fs-6 .fw-300 .m-5 .p-5 }
 
 <script>
 function GetQueryString(name) {
