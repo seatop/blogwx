@@ -1,7 +1,7 @@
 ---
 layout: default
 title: biahu.com
-parent: domain
+parent: Domain
 ---
 
 # {{ page.title }}

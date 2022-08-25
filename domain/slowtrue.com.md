@@ -1,7 +1,7 @@
 ---
 layout: default
 title: slowtrue.com
-parent: domain
+parent: Domain
 ---
 
 # {{ page.title }}

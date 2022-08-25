@@ -1,7 +1,7 @@
 ---
 layout: default
 title: heartdo.com
-parent: domain
+parent: Domain
 ---
 
 # {{ page.title }}

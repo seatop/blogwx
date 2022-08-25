@@ -1,7 +1,7 @@
 ---
 layout: default
 title: zhangyan.biz
-parent: domain
+parent: Domain
 ---
 
 # {{ page.title }}

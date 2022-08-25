@@ -1,7 +1,7 @@
 ---
 layout: default
 title: alphayi.com
-parent: domain
+parent: Domain
 ---
 
 # {{ page.title }}

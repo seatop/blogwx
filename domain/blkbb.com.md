@@ -1,7 +1,7 @@
 ---
 layout: default
 title: blkbb.com
-parent: domain
+parent: Domain
 ---
 
 # {{ page.title }}
