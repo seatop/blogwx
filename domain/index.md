@@ -1,6 +1,6 @@
 ---
 layout: default
-title: domain
+title: Domain
 nav_order: 2
 has_children: true
 permalink: /domain
