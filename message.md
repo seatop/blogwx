@@ -1,6 +1,6 @@
 ---
 layout: default
-title: message
+title: Message
 nav_order: 5
 nav_exclude: true
 permalink: /message.html
