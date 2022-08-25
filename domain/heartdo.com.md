@@ -1,9 +1,9 @@
 ---
-layout: domain
+layout: default
 title: heartdo.com
 parent: domain
 ---
 
 # {{ page.title }}
 
-[- 可以访问看看 -](http://{{page.title}})
+[- 闲置域名 -](http://{{page.title}})
