@@ -5,7 +5,7 @@ nav_order: 1
 permalink: /
 ---
 
-### 图文消息（纯消息版）工具
+### 图文消息工具（文字版）
 
 ![图文消息](./images/ti_common.png)
 
