@@ -1,16 +1,16 @@
 ---
 layout: default
-title: 定制图文
+title: 自定义图文
 nav_order: 2
 permalink: /ti
 ---
 
-### 定制图文
+### 自定义图文
 
 ![图文消息](./images/ti_d.jpg)
 {: .m-5 }
 
-### 定制过程
+### 自定义过程
 
 1. 在公众号中输入格式命令`#注册#`进行注册。
 
@@ -52,7 +52,7 @@ permalink: /ti
 	#图文生成#
 	```
 
-### 赞助
+### 赞助我们
 
 ![图文消息](./images/zanzhu.jpeg)
 {: .m-5 }
