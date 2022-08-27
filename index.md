@@ -7,7 +7,7 @@ permalink: /
 
 ### 图文消息生成（仅文字）
 
-![图文消息](./images/ti_common.png)
+![图文消息](./images/ti_common.jpg)
 
 - 将微信文字消息转为图文消息
 
