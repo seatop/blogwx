@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 联系我们
-nav_order: 10
+nav_order: 5
 permalink: /contact
 ---
 
@@ -15,4 +15,4 @@ i [at] blogwx.com
 ### 微信
 
 ![微信订阅号：BlogWX](./images/weixin.jpeg)
-{: .m-2 }
+{: .m }

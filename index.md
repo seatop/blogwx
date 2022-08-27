@@ -5,9 +5,10 @@ nav_order: 1
 permalink: /
 ---
 
-### 图文消息生成（仅文字）
+### 文字转图文
 
 ![图文消息](./images/ti_common.jpg)
+{: .m-5 }
 
 - 将微信文字消息转为图文消息
 
