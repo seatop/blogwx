@@ -52,7 +52,3 @@ permalink: /ti
 	#图文生成#
 	```
 
-### 赞助我们
-
-![图文消息](./images/zanzhu.jpeg)
-{: .m-5 }
