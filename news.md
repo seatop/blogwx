@@ -7,7 +7,7 @@ permalink: /news.html
 ---
 
 <p id="ntitle"></p>
-{: .fs-8 .fw-700.m-5 }
+{: .fs-7 .fw-400 .m }
 
 <p id="say"></p>
 {: .fs-6 .fw-300 .m-5 }
