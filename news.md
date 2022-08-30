@@ -7,10 +7,10 @@ permalink: /news.html
 ---
 
 <p id="ntitle"></p>
-{: .fs-7 .fw-400 .m }
+{: .fs-6 .fw-400 }
 
 <p id="say"></p>
-{: .fs-6 .fw-300 .m-5 }
+{: .fs-5 .fw-300 .m-5 }
 
 <script>
 function GetQueryString(name) {
