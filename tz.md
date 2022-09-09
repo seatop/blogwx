@@ -15,11 +15,12 @@ permalink: /tz.html
 {: .fs-5 .fw-300 .m-5 }
 
 ![教师节图脚](./images/teacher_f.png)
+
 <script>
 function GetQueryString(name) {
 var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)","i");
 var r = window.location.search.substr(1).match(reg);
-if (r!=null) return (r[2]); return "未定义";
+if (r!=null) return (r[2]); return "";
 }
 document.getElementById("tname").innerHTML = decodeURIComponent(GetQueryString("t"));
 </script>
