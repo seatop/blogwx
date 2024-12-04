@@ -7,17 +7,14 @@ title: Message
 	<div class="post">
 	  {% include author.html %}
 	  <div class="content">
-         <p class="ctitle"></p>
-         <div class="ctext"></div>
+         <p class="ctitle" id="ctitle"></p>
+         <div id="ctext"></div>
 	  </div>
 	</div>
 </div>
 
 <script>
 	let u = new URL(document.URL);
-	let title = u.searchParams.get('t');
-	let content = u.searchParams.get('c');
-	document.getElementsByClassName('ctitle').innerHTML = title;
-	document.getElementsByClassName('ctext').innerHTML = content;
-
+	document.getElementById('ctitle').innerHTML = u.searchParams.get('t')?u.searchParams.get('t'):'@';
+	document.getElementById('ctext').innerHTML = u.searchParams.get('c')?u.searchParams.get('c'):'：)';
 </script>
