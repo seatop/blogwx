@@ -1,0 +1,17 @@
+---
+layout: default
+title: BlogWX 
+---
+
+<div class="posts">
+{% for post in site.posts  limit: 1 %}
+<div class="post">
+  {% include author.html %}
+  <div class="content">
+    <p class="ctitle"><a href="{{ post.url }}">{{ post.title }}</a></p>
+    <p class="ctime"><a href="{{ post.url }}">{{ post.date | date: "%Y/%m/%d" }}</a></p>
+  {{ post.content }}
+  </div>
+</div>
+{% endfor %}
+</div>

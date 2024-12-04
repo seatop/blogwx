@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class="posts">
+	<div class="post">
+	  {% include author.html %}
+	  <div class="content">
+    <p class="ctitle">{{ page.title }}</p>
+    <p class="ctime">{{ page.date | date: "%Y/%m/%d" }}</p>
+	  {{ content }}
+	  </div>
+	  <div class="pnm">
+	  {% if page.previous %}
+	  <p class="pn">← <a href="{{ page.previous.url }}">{{ page.previous.title }}，{{ page.previous.date | date: "%Y-%m-%d" }}</a></p>
+	  {% endif%}
+	  {% if page.next %}
+	  <p class="pn">→ <a href="{{ page.next.url }}">{{ page.next.title }}，{{ page.next.date | date: "%Y-%m-%d" }}</a></p>
+	  {% endif%}
+	  </div>
+	</div>
+</div>

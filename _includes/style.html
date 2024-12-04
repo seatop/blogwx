@@ -1,0 +1,27 @@
+* {margin: 0; padding: 0;}
+body {background-color: {{ site.data.config.bcolor | default: "#fff" }};font-size: 0.8em;text-align: center;}
+.all {margin: 0 auto;width: 800px;}
+.tip {text-align: left;font-size: 1.2em;color: #f5ebdc;padding-left: 6.6em;}
+.posts {margin:8em 1em 0 1em;text-align: left;min-height: 20em;}
+.avatar,.avatar img {width:5em; height: 5em;}
+.avatar img{border-radius: 50%;}
+.avatar {float: left;}
+.info {float: left;}
+.info li {list-style-type: none;margin-left: 2.4em;margin-top: 0.3em;font-size: 0.9em;color: {{ site.data.config.fcolor | default: "#000" }};}
+.info a {text-decoration-line: none; color: {{ site.data.config.fcolor | default: "#000" }};}
+.info li:first-child {font-size: 1.5em;margin-top: 0em;margin-left: 1.4em;}
+.author::after {clear: both;content:"";display: block;}
+.content {margin-left: 5.2em;margin-bottom: 2em;margin-top: 2em;line-height: 1.8em;font-size: 1.2em;border-radius: 5px;background-color: {{ site.data.config.tbcolor | default: "#fff" }};padding: 10px;color: {{ site.data.config.tcolor | default: "#000" }};}
+.content a {text-decoration-line: none;color: {{ site.data.config.tcolor | default: "#000" }};}
+.pn,.pn a{color: {{ site.data.config.fcolor | default: "#000" }};}
+.pn a{text-decoration-line: none;}
+.pn {margin-left: 7em;line-height: 2em;}
+.pnm {margin-bottom: 5em;}
+.ctitle {font-weight: bold;}
+.ctime{font-size: 0.8em;}
+@media screen and (max-width: 800px) {
+	.all {width: 100%;}
+	.content {margin-left: 1em;}
+	.pn {margin-left: 2em;}	
+	.author {margin-left: 2em;}
+}
