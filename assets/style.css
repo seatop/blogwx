@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: linear-gradient(135deg, #0f0f23 0%, #1a1a3e 100%);
+  color: #eaeaea;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a {
+  color: #4a9eff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #7ab8ff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 头部 */
+header {
+  text-align: center;
+  padding: 60px 20px;
+  border-bottom: 1px solid rgba(74, 158, 255, 0.2);
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #4a9eff 0%, #9b59b6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+header p {
+  color: #888;
+  font-size: 1.1em;
+}
+
+/* 导航 */
+nav {
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #aaa;
+  font-size: 0.95em;
+}
+
+nav a:hover {
+  color: #4a9eff;
+}
+
+/* 文章列表 */
+.post-list {
+  margin: 40px 0;
+}
+
+.post-item {
+  background: rgba(26, 26, 62, 0.8);
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  border: 1px solid rgba(74, 158, 255, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.post-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 20px rgba(74, 158, 255, 0.15);
+}
+
+.post-title {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.post-title a {
+  color: #eaeaea;
+}
+
+.post-title a:hover {
+  color: #4a9eff;
+}
+
+.post-meta {
+  color: #666;
+  font-size: 0.85em;
+  margin-bottom: 15px;
+}
+
+.post-excerpt {
+  color: #aaa;
+  line-height: 1.8;
+}
+
+/* 文章页面 */
+.post-content {
+  background: rgba(26, 26, 62, 0.8);
+  border-radius: 12px;
+  padding: 40px;
+  margin: 30px 0;
+  border: 1px solid rgba(74, 158, 255, 0.1);
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+  color: #eaeaea;
+  margin: 30px 0 15px 0;
+}
+
+.post-content h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.post-content h2 {
+  font-size: 1.5em;
+  border-bottom: 2px solid rgba(74, 158, 255, 0.3);
+  padding-bottom: 10px;
+}
+
+.post-content p {
+  margin: 20px 0;
+  line-height: 2;
+  font-size: 1.05em;
+}
+
+.post-content ul,
+.post-content ol {
+  margin: 20px 0;
+  padding-left: 30px;
+}
+
+.post-content li {
+  margin: 10px 0;
+  line-height: 1.8;
+}
+
+.post-content blockquote {
+  border-left: 4px solid #4a9eff;
+  padding: 15px 20px;
+  margin: 25px 0;
+  background: rgba(74, 158, 255, 0.1);
+  border-radius: 0 8px 8px 0;
+  color: #ccc;
+}
+
+.post-content code {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+}
+
+.post-content pre {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+.post-content pre code {
+  background: none;
+  padding: 0;
+}
+
+/* 标签 */
+.tag {
+  display: inline-block;
+  background: rgba(74, 158, 255, 0.2);
+  color: #4a9eff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8em;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+/* 页脚 */
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 1px solid rgba(74, 158, 255, 0.2);
+  color: #666;
+  font-size: 0.9em;
+}
+
+/* 响应式 */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8em;
+  }
+  
+  .post-content {
+    padding: 25px;
+  }
+  
+  .container {
+    padding: 15px;
+  }
+}
+
+/* 特殊元素 */
+.highlight-box {
+  background: linear-gradient(135deg, rgba(74, 158, 255, 0.2) 0%, rgba(155, 89, 182, 0.2) 100%);
+  border: 1px solid rgba(74, 158, 255, 0.3);
+  border-radius: 12px;
+  padding: 25px;
+  margin: 25px 0;
+}
+
+.warning-box {
+  background: rgba(231, 76, 60, 0.15);
+  border: 1px solid rgba(231, 76, 60, 0.3);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 25px 0;
+  color: #ff6b6b;
+}
+
+.tip-box {
+  background: rgba(46, 204, 113, 0.15);
+  border: 1px solid rgba(46, 204, 113, 0.3);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 25px 0;
+  color: #2ecc71;
+}

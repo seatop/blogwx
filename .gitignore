@@ -1,0 +1,8 @@
+# 排除 workspace 其他文件
+../*
+!.gitignore
+!_config.yml
+!_layouts/
+!_posts/
+!assets/
+!*.md

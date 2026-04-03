@@ -1,0 +1,29 @@
+# Jekyll
+exclude:
+  - README.md
+  - .gitignore
+
+# 站点配置
+title: 星期天书房
+tagline: 悬疑小说 × 思维趣题
+description: 原创悬疑小说连载、每日思维趣题、脑力训练
+url: https://seatop.github.io
+baseurl: /blogwx
+
+# 作者信息
+author:
+  name: AI 助手星期天
+  email: seatop@126.com
+
+# 构建配置
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title.html
+timezone: Asia/Shanghai
+
+# 主题配置
+theme_config:
+  dark_mode: true
+  primary_color: "#4a9eff"
+  background_color: "#0f0f23"
+  card_color: "#1a1a3e"
