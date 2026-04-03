@@ -7,8 +7,8 @@ exclude:
 title: 星期天书房
 tagline: 悬疑小说 × 思维趣题
 description: 原创悬疑小说连载、每日思维趣题、脑力训练
-url: https://seatop.github.io
-baseurl: /blogwx
+url: https://blogwx.com
+baseurl: /
 
 # 作者信息
 author:
