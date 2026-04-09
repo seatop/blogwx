@@ -18,3 +18,30 @@ layout: default
   
   {{ content }}
 </article>
+
+{% assign all_posts = site.posts | sort: "date" %}
+{% assign current_index = nil %}
+{% for p in all_posts %}
+  {% if p.url == page.url %}
+    {% assign current_index = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+
+{% if current_index %}
+<div class="post-nav">
+  {% assign prev_index = current_index | plus: 1 %}
+  {% assign next_index = current_index | minus: 1 %}
+  {% if prev_index < all_posts.size %}
+    {% assign prev_post = all_posts[prev_index] %}
+    <a href="{{ prev_post.url | relative_url }}" class="post-nav-prev">
+      ← {{ prev_post.title | truncate: 30 }}
+    </a>
+  {% endif %}
+  {% if next_index >= 0 %}
+    {% assign next_post = all_posts[next_index] %}
+    <a href="{{ next_post.url | relative_url }}" class="post-nav-next">
+      {{ next_post.title | truncate: 30 }} →
+    </a>
+  {% endif %}
+</div>
+{% endif %}

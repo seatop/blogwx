@@ -219,6 +219,41 @@ footer {
   }
 }
 
+/* 文章导航 */
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  gap: 15px;
+}
+
+.post-nav a {
+  flex: 1;
+  display: block;
+  padding: 18px 20px;
+  background: rgba(26, 26, 62, 0.8);
+  border: 1px solid rgba(74, 158, 255, 0.15);
+  border-radius: 10px;
+  color: #aaa;
+  font-size: 0.9em;
+  transition: all 0.3s;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.post-nav a:hover {
+  border-color: rgba(74, 158, 255, 0.4);
+  color: #4a9eff;
+  transform: translateY(-2px);
+}
+
+.post-nav-next {
+  text-align: right;
+}
+
 /* 特殊元素 */
 .highlight-box {
   background: linear-gradient(135deg, rgba(74, 158, 255, 0.2) 0%, rgba(155, 89, 182, 0.2) 100%);
